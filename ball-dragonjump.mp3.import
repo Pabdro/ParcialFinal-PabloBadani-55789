@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ball-dragonjump.mp3-f66da3c46227d5916752bd17e9499cd6.mp3str"
+
+[deps]
+
+source_file="res://ball-dragonjump.mp3"
+dest_files=[ "res://.import/ball-dragonjump.mp3-f66da3c46227d5916752bd17e9499cd6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,34 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://craftpix-net-481532-free-medieval-tileset-pixel-art-pack/PNG/Objects/chest_opened.png" type="Texture" id=1]
+[ext_resource path="res://craftpix-net-481532-free-medieval-tileset-pixel-art-pack/PNG/Objects/chest_closed.png" type="Texture" id=2]
+[ext_resource path="res://cofre.gd" type="Script" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ) ],
+"loop": true,
+"name": "abierto",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "cerrado",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 10, 6.5 )
+
+[node name="cofre" type="Area2D"]
+scale = Vector2( 2, 2 )
+script = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "cerrado"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[connection signal="body_shape_entered" from="." to="." method="_on_cofre_body_shape_entered"]

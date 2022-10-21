@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/espada.mp3-816c6028af36da82611bdd6a17bb7303.mp3str"
+
+[deps]
+
+source_file="res://espada.mp3"
+dest_files=[ "res://.import/espada.mp3-816c6028af36da82611bdd6a17bb7303.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

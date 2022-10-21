@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/sonidocoin.mp3-b950758358470a24938277c7e820d241.mp3str"
+
+[deps]
+
+source_file="res://sonidocoin.mp3"
+dest_files=[ "res://.import/sonidocoin.mp3-b950758358470a24938277c7e820d241.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
