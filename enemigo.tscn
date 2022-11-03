@@ -163,7 +163,7 @@ tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 0, 0.6, 0.7, 0.8, 1.6 ),
+"times": PoolRealArray( 0, 0.6, 0.7, 0.8, 1.7 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ false, false, true, false, false ]
@@ -240,7 +240,7 @@ tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 0.6, 0.7, 0.8, 1.6 ),
+"times": PoolRealArray( 0, 0.6, 0.7, 0.8, 1.7 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 1,
 "values": [ false, false, true, false, false ]

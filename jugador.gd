@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var velocidad = 60
 var movimiento = Vector2(0,0)
-var salto = -500
+var salto = -600
 var gravedad = 20
 var ataque = false
 var muerta = false
@@ -57,6 +57,9 @@ func _on_AnimatedSprite_animation_finished():
 		ataque = false
 	if $AnimatedSprite.animation == "muerta":
 		queue_free()
+		get_tree().change_scene("res://MainP.tscn")
+		Main.vida = 100
+		Main.contador = 0
 
 
 func _on_AnimatedSprite_frame_changed():

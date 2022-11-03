@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The_Return.mp3-6148d8f72482f1c35cd731647badd9f3.mp3str"
+
+[deps]
+
+source_file="res://The_Return.mp3"
+dest_files=[ "res://.import/The_Return.mp3-6148d8f72482f1c35cd731647badd9f3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

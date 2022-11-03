@@ -38,9 +38,9 @@ func _physics_process(delta) -> void:
 
 func golpear():
 	if $izq2.is_colliding():
-		Main.vida -= 1
+		Main.vida -= 0.5
 	if $der2.is_colliding():
-		Main.vida -= 1
+		Main.vida -= 0.5
 
 
 
